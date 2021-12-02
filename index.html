@@ -5,15 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>start</title>
+
+    <style>
+        .para {
+            color: red;
+        }
+        .heading {
+            color: blue;
+            height: 30px;
+            width: 600px;
+            background-color: aqua;
+        }
+        #second__head {
+            background-color: red;
+        }
+        h3 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+
+    </style>
+
 </head>
 <body>
     <!-- heading -->
-    <h1>hello Developer!</h1>
-    <h2>hello Developer!</h2>
+    <h1 class="heading">hello Developer!</h1>
+    <h2 id="second__head">hello Developer!</h2>
     <h3>hello Developer!</h3>
 
     <!-- paragraph -->
-    <p>
+    <p class="para">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita, earum magnam cumque esse, neque nisi dignissimos facilis tempora rerum ipsa! Unde velit, consequuntur dignissimos tempora sequi ullam quia similique porro omnis a, molestias possimus excepturi ipsum consequatur mollitia aperiam. Et officia cumque labore cupiditate fuga quod, autem optio repellat.
     </p>
 
@@ -49,10 +70,19 @@
 
     <!-- form -->
     <form action="">
-        <input type="text">
+        <label for="email">Email: </label>
+        <input type="text" id="email">
+        
+        <label for="pass">Password: </label>
+        <input type="text" id="pass">
+
+        <button>LogIn</button>
+
         <button>click me</button>
     </form>
+
     
+
 
 </body>
 </html>
