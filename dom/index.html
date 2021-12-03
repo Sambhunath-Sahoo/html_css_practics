@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .container {
+            margin: 5rem 10rem;
+            display: flex;
+            width: 180px;
+            height: 150px;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            height: 50px;
+            width: 50px;
+            border: 1px solid black;
+        }
+
+        .green {
+            background: green;
+        }
+    </style>
+  </head>
+  <body>
+
+    <!-- <button>click me</button>
+
+    <script>
+      let btn = document.querySelector('button');
+      let body = document.querySelector("body");
+      btn.addEventListener("click", (e) => {
+          let newElement = document.createElement("div");
+          newElement.innerText = "Hello Sam!";
+          body.appendChild(newElement);
+      })
+    </script> -->
+
+
+
+    <!-- <input type="text">
+    <button>click me</button>
+
+    <div class="container">
+        <div class="box 1"></div>
+        <div class="box 2"></div>
+        <div class="box 3"></div>
+        <div class="box 4"></div>
+        <div class="box 5"></div>
+        <div class="box 6"></div>
+        <div class="box 7"></div>
+        <div class="box 8"></div>
+        <div class="box 9"></div>
+    </div>
+
+    <script>
+        let btn = document.querySelector("button");
+        let boxes = document.querySelectorAll(".box");
+        btn.addEventListener('click', (e) => {
+            let number = document.querySelector("input").value;
+            for(let i = 0; i < boxes.length; i++) {
+                
+                if(i+1 == number) {
+                    console.log("hello",i+1, number);
+                    boxes[i].classList.add("green");
+                }
+            }
+        })
+    </script>  -->
+
+
+
+
+    <!-- <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+    </ul>    
+
+    <script>
+        // fix the list by inserting the missing element 
+        let ul = document.querySelector("ul");
+        let li = document.querySelectorAll("li");
+        for(let i=0; i<li.length; i++) {
+            if(i == 6) {
+                let newElement = document.createElement("li");
+                newElement.innerText = '7';
+                ul.insertBefore(newElement, li[i]);
+            }
+        }
+    </script> -->
+
+
+  </body>
+</html>
